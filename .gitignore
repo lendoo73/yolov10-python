@@ -1,0 +1,15 @@
+.venv/
+.idea/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+.env
+.env.*
+!.env.example
+
+# Do not publish model weights without explicit authorization.
+*.onnx
+*.pt
+*.pth
+*.engine
